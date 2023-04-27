@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre-este-sitio.html">Sobre este sitio</a></li>
+        <li><a href="espacios.html">Espacios protegidos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="fuentes.html">Fuentes</a></li>
+      </ul>
+      </nav>
+  </body>
+  <head>
+    <title>Sobre este sitio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+      body {
+        background-size: cover;
+      }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #323777;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sobre este sitio</h1>
+
+    
+	<head>
+		<style>
+		  body {
+			background-image: url('./assets/patos.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<script>
+		  var velocidad = -7; // Velocidad de animación
+		  var posicion_x = 0; // Posición inicial en el eje x
+		  
+		  function animar_fondo() {
+			posicion_x -= velocidad; // Actualiza la posición en el eje x
+			document.body.style.backgroundPosition = posicion_x + "px 0"; // Actualiza la posición de la imagen de fondo
+			requestAnimationFrame(animar_fondo); // Repite la animación
+		  }
+		  
+		  animar_fondo(); // Inicia la animación
+		</script>
+	  </body>
+    
+    <p>¡Hola!</p>
+    <p>Si estás aquí seguramente eres pajarero o pajarera y estás planificando tu viaje de turismo ornitológico. Quizá no sabes de qué va el tema, y estás a punto de descubrir el emocionante mundo de la observación de aves. </p>
+    <p>El «birdwatching», la afición de observar las aves en su medio natural, levanta cada vez más pasiones en todo el mundo. Cantabria, es una de las zonas con más biodiversidad de Europa, y ofrece iniciativas de todo tipo para ello. En este sitio explicamos cómo y dónde ver aves en Cantabria.</p>
+    <p>La avifauna de Cantabria presenta una amplia diversidad gracias a la variedad de nichos ecológicos existentes en la región y a la posición geográfica de la misma, equidistante entre el mundo mediterráneo del sur peninsular y el cercano mundo de la Europa atlántica.
+    <p>La época más activa para la observación de aves normalmente es durante la primavera y el otoño, ya que coinciden con la migración de las aves y es cuando el mayor número de especies puede ser observado. Se debe a que muchas aves que normalmente no anidan en un área suelen pasar por ella durante su trayecto de norte a sur o viceversa. Temprano es el momento más adecuado para poder observar las aves en su entorno natural, porque es en este periodo cuando las aves están más hambrientas y ocupadas en su búsqueda de alimento. La mejor manera de localizar las especies más interesantes requiere de un detallado conocimiento de su apariencia, sonido y conducta, así como de su hábitat más apropiado, junto a una buena dosis de discreción, paciencia y suerte.</p>
+    <img src="./assets/prismaticos.jpg">
+  </head>
+</html>

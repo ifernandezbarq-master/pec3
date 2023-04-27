@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="/sobre-este-sitio.html">Sobre este sitio</a></li>
+        <li><a href="/espacios.html">Espacios protegidos</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
+        <li><a href="/fuentes.html">Fuentes</a></li>
+      </ul>
+      </nav>
+  </body>
+  <head>
+    <title>Sobre este sitio</title>
+    <link rel="stylesheet" href="/styles.b61e60ae.css">
+    <style>body {
+        background-size: cover;
+      }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #323777;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }</style>
+  </head>
+    <body>
+      <h1>Formulario de Contacto</h1>
+     <form action="enviar.php" method="post" onsubmit="return validarFormulario()">
+        <p>
+          <label for="nombre">Nombre:</label>
+          <br>
+          <input type="text" id="nombre" name="nombre" required="">
+        </p>
+  
+        <p>
+          <label for="email">Correo electrónico:</label>
+          <br>
+          <input type="email" id="email" name="email" required="">
+        </p>
+  
+        <p>
+          <label for="mensaje">Mensaje:</label>
+          <br>
+          <textarea id="mensaje" name="mensaje" required=""></textarea>
+        </p>
+  
+        <p>
+          <input type="submit" value="Enviar">
+        </p>
+
+      </form>
+
+      
+
+      <head>
+        <style>body {
+          background-image: url('/patos.e6d66650.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          }</style>
+        <script src="/fuentes.js"></script></head>
+        <body>
+        <script>var velocidad = -7; // Velocidad de animación
+var posicion_x = 0; // Posición inicial en el eje x
+
+function animar_fondo() {
+  posicion_x -= velocidad; // Actualiza la posición en el eje x
+  document.body.style.backgroundPosition = posicion_x + "px 0"; // Actualiza la posición de la imagen de fondo
+  requestAnimationFrame(animar_fondo); // Repite la animación
+}
+
+animar_fondo(); // Inicia la animación</script>
+        </body>
+
+      <img src="/contactogull.52ba2eda.jpg">
+    </body>
+</html>
