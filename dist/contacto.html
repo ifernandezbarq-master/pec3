@@ -1,16 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="/index.html">Inicio</a></li>
-        <li><a href="/sobre-este-sitio.html">Sobre este sitio</a></li>
-        <li><a href="/espacios.html">Espacios protegidos</a></li>
-        <li><a href="/contacto.html">Contacto</a></li>
-        <li><a href="/fuentes.html">Fuentes</a></li>
-      </ul>
-      </nav>
-  </body>
   <head>
     <title>Sobre este sitio</title>
     <link rel="stylesheet" href="/styles.b61e60ae.css">
@@ -41,10 +30,20 @@
       li a:hover {
         background-color: #111;
       }</style>
+    <script src="/validar_contacto.ac84ea65.js"></script>
   </head>
     <body>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="/sobre-este-sitio.html">Sobre este sitio</a></li>
+          <li><a href="/espacios.html">Espacios protegidos</a></li>
+          <li><a href="/contacto.html">Contacto</a></li>
+          <li><a href="/fuentes.html">Fuentes</a></li>
+        </ul>
+        </nav>
       <h1>Formulario de Contacto</h1>
-     <form action="enviar.php" method="post" onsubmit="return validarFormulario()">
+     <form action="enviar" method="post" onsubmit="return validarFormulario()">
         <p>
           <label for="nombre">Nombre:</label>
           <br>

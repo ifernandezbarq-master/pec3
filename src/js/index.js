@@ -2,7 +2,7 @@ const validator = require('validator');
 const contactForm = document.getElementById('contact-form');
 
 contactForm.addEventListener('submit', function (event) {
-  event.preventDefault();
+  event.preventDefault(); // Agregamos esta línea para evitar que la página se refresque
 
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
@@ -26,8 +26,4 @@ contactForm.addEventListener('submit', function (event) {
   alert('Formulario enviado con éxito.');
 });
 
-
-
-
 console.log('¡Hola, aves!');
-
