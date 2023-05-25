@@ -1,145 +1,132 @@
 <!DOCTYPE html>
 <html>
-	<body>
-		<nav>
-		  <ul>
-			<li><a href="index.html">Inicio</a></li>
-			<li><a href="sobre-este-sitio.html">Sobre este sitio</a></li>
-			<li><a href="espacios.html">Espacios protegidos</a></li>
-			<li><a href="contacto.html">Contacto</a></li>
-			<li><a href="fuentes.html">Fuentes</a></li>
-		  </ul>
-		  </nav>
-	  </body>
 <head>
-	<title>Zonas de Especial Protección para las Aves</title>
-	<link rel="stylesheet" href="./css/styles.css">
-	<style>
-		body {
-		  background-size: cover;
-		}
-		
-		ul {
-		  list-style-type: none;
-		  margin: 0;
-		  padding: 0;
-		  overflow: hidden;
-		  background-color: #323777;
-		}
-  
-		li {
-		  float: left;
-		}
-  
-		li a {
-		  display: block;
-		  color: white;
-		  text-align: center;
-		  padding: 14px 16px;
-		  text-decoration: none;
-		}
-  
-		li a:hover {
-		  background-color: #111;
-		}
-
-		<style>
-    pre {
-      text-align: left;
-    }
-  </style>
-	  </style>
-	<style>
-		.category {
-			display: inline-block;
-			margin: 10px;
-			width: 400px;
-			height: 400px;
-			background-color: #ffffff;
-			text-align: center;
-			padding: 20px;
-			box-sizing: border-box;
-		}
-		.category img {
-			max-width: 100%;
-			height: auto;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <title>Turismo ornitológico de Cantabria</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <style>
+        body {
+            background-color: #c0ab81;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Establece la altura mínima del cuerpo como el 100% de la altura de la ventana */
+        }
+        
+        img {
+            margin-top: 30px; /* Margen superior de 30px */
+            margin-bottom: 30px; /* Margen inferior de 30px */
+        }
+        
+        .footer {
+            width: 100%;
+            background-color: #f4ff7f;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto; /* Hace que el footer se ajuste automáticamente en la parte inferior */
+        }
+    </style>
 </head>
-<body>
-	<h1>Espacios protegidos</h1>
-	<p> En Cantabria hay ocho espacios protegidos para la conservación de aves. Una ZEPA (Zona de Especial Protección para las Aves) es un espacio en el que se protege a las especies y hábitas más amenazados, promoviendo actividades compatibles con la conservación. </p2>
-	<p> La amenaza más crítica que enfrentan las aves es la destrucción y la fragmentación de hábitats.​ La pérdida de bosques, pastizales y otros ecosistemas naturales por la agricultura, las minas y el desarrollo urbano, el drenaje de pantanos y otros humedales, y la extracción de madera reducen el hábitat potencial para muchas especies. </p>
-	<p>Las aves se enfrentan a muchas otras amenazas. La contaminación ha provocado serias declinaciones en algunas especies. El pesticida DDT fue responsable del adelgazamiento de la cáscara de los huevos, particularmente en las aves marinas y las aves de presa que están en la parte superior de la cadena alimenticia.​ Las aves marinas son también vulnerables al derrame de petróleo, que destruye la protección contra el agua del plumaje, causando que el ave se ahogue o muera por hipotermia. La contaminación ligera puede también provocar efectos dañinos sobre algunas especies, particularmente las nocturnas como los petreles.</p>	<div class="category">
-		<style>
-			.mi-imagen {
-			  width: 300px;
-			  height: 200px;
-			}
-		  </style>
-		  <a href="santoña.html">
-			<img src="./assets/01santoña.jpg" alt="Marismas de Santoña, Victoria, Joyel y Ría de Ajo" onclick="cambiartamaño(50)"
-		</a>
-	</div>
-	<div class="category">
-		<a href="liebana.html">
-		  <img src="./assets/02liebana.jpg" alt="Liébana" id="img-02liebana">
-		</a>
-	  </div>	  
-	<div class="category">
-		<a href="hermida.html">
-			<img src="./assets/03hermida.jpg" alt="Desfiladero de la Hermida">
-		</a>
-	</div>
-    <div class="category">
-		<a href="sagra.html">
-			<img src="./assets/04sagra.jpg" alt="Sierra de Peña Sagra">
-		</a>
-	</div>
-    <div class="category">
-		<a href="hijar.html">
-			<img src="./assets/05hijar.jpg" alt="Sierra de Hijar">
-		</a>
-	</div>
-    <div class="category">
-		<a href="cordel.html">
-			<img src="./assets/06cordel.jpg" alt="Sierra de Cordel y Cabeceras del Nansa y del Saja">
-		</a>
-	</div>
-    <div class="category">
-		<a href="ebro.html">
-			<img src="./assets/07ebro.jpg" alt="Embalse del Ebro">
-		</a>
-	</div>
-    <div class="category">
-		<a href="hoces.html">
-			<img src="./assets/08oces.jpg" alt="Hoces del Ebro">
-		</a>
-	</div>
 
-	<head>
-		<style>
-		  body {
-			background-image: url('./assets/patos.jpg');
-			background-repeat: no-repeat;
-			background-size: cover;
-		  }
-		</style>
-	  </head>
-	  <body>
-		<script>
-		  var velocidad = -7; // Velocidad de animación
-		  var posicion_x = 0; // Posición inicial en el eje x
-		  
-		  function animar_fondo() {
-			posicion_x -= velocidad; // Actualiza la posición en el eje x
-			document.body.style.backgroundPosition = posicion_x + "px 0"; // Actualiza la posición de la imagen de fondo
-			requestAnimationFrame(animar_fondo); // Repite la animación
-		  }
-		  
-		  animar_fondo(); // Inicia la animación
-		</script>
-	  </body>
-    
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/logo-turismo3.svg" alt="Logo de la empresa" style="width: 300px;">
+        </div>
+        
+        <nav>
+            <ul class="main-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre-este-sitio.html">Sobre este sitio</a></li>
+                <li><a href="espacios.html">Espacios protegidos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Animación BounceIn</title>
+      </head>
+      <body>
+        <div style="animation-name: bounceIn; animation-duration: 1s; animation-timing-function: ease-in-out;">
+          <!-- Contenido del elemento animado -->
+          <h1>Zonas de especial protección para las aves</h1>
+        </div>
+
+        <style>
+          @keyframes bounceIn {
+            0% {
+              transform: scale(0.1);
+              opacity: 0;
+            }
+            60% {
+              transform: scale(1.2);
+              opacity: 1;
+            }
+            100% {
+              transform: scale(1);
+            }
+          }
+        </style>
+    <!-- Imagen con tamaños y fuentes responsivas --> 
+    <picture>
+        <source srcset="./assets/canario-pequeña.webp" media="(max-width: 39.99em)"> <!-- Imagen para pantallas pequeñas -->
+        <source srcset="./assets/canario.webp" media="(min-width: 30em)"> <!-- Imagen para pantallas grandes -->
+        <img src="./assets/canario.webp" alt="Pajarero" sizes="(min-width: 30em) 33vw"> <!-- Imagen de respaldo para navegadores que no admiten el elemento <picture> -->
+    </picture>
+    <p></p>
+    <p></p>
+
+    <a href="ebro.html" class="button">Embalse del Ebro</a>
+    <p>El embalse del Ebro, también llamado pantano del Ebro, pantano de Reinosa o pantano de Arija, es un embalse construido en el curso alto del río Ebro, en el norte de España. Se encuentra entre la comarca cántabra de Campoo-Los Valles y la burgalesa de Las Merindades, aunque la mayor parte del Embalse está en territorio cántabro y de igual forma prácticamente todos los ríos que vierten sus aguas a él proceden de Cantabria. Es uno de los embalses más extensos de España y es el tercer embalse de mayor capacidad de la cuenca hidrográfica del Ebro, por detrás de los embalses de Mequinenza y Canelles.</p>
+
+<a href="ebro.html">
+<img
+  src="./assets/petirrojo-pequeña.webp"
+  srcset="./assets/petirrojo-pequeña.webp 480w, ./assets/petirrojo-mediana.webp 768w"
+  sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 25vw"
+  alt="Descripción de la imagen"
+  class="thumbnail-img"
+/>
+</a>
+
+<p></p>
+<a href="sagra.html" class="button">Peña Sagra</a>
+<p>La sierra de Peña Sagra, o simplemente Peña Sagra, es un cordal de unos 16 kilómetros de longitud que separa la cabecera suroccidental del valle del Nansa del Valle de Liébana, por donde discurre el río Deva, y Polaciones. En terrenos de Cabezón de Liébana, junto a otros de Peñarrubia, Lamasón, Polaciones, Rionansa y Tudanca, están las 5.020 Hectáreas que abarca esta Z.E.P.A.</p>
+
+<a href="sagra.html">
+<img
+src="./assets/rapaz-pequeña.webp"
+srcset="./assets/rapaz-pequeña.webp 480w, ./assets/rapaz-mediana.webp 768w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 25vw"
+alt="Rapaz"
+class="thumbnail-img"
+/>
+</a>
+
+<p></p>
+<a href="santoña.html" class="button">Santoña</a>
+<p>Las marismas de Santoña tienen su origen en la última glaciación, cuando el nivel del mar se elevó inundando los valles inmediatos y creando las condiciones físicas necesarias para propiciar la aparición de este estuario inundado a diario por efecto de las mareas provenientes del Cantábrico.</p>
+
+<a href="santoña.html">
+<img
+src="./assets/gaviota-pequeña.webp"
+srcset="./assets/gaviota-pequeña.webp 480w, ./assets/gaviota-mediana.webp 768w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 25vw"
+alt="Rapaz"
+class="thumbnail-img"
+/>
+</a>
+
+<p></p>
+
+    </head>
+
+    <div class="footer">
+        <img src="assets/logo-turismo2.svg" alt="Logo de la empresa" style="width: 100px;">
+        <p>© 2023 Turismo ornitológico de Cantabria - Todos los derechos reservados</p>
+        <p><a href="fuentes.html">Fuentes</a></p>
+    </div>
+      
 </body>
 </html>

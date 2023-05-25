@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 const validator = require('validator');
 const contactForm = document.getElementById('contact-form');
 

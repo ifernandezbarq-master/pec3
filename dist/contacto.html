@@ -1,95 +1,112 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Sobre este sitio</title>
-    <link rel="stylesheet" href="/styles.b61e60ae.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Turismo ornitológico de Cantabria</title>
+    <link rel="stylesheet" type="text/css" href="/index.77a9bc14.css">
     <style>body {
-        background-size: cover;
-      }
-      
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #323777;
-      }
-
-      li {
-        float: left;
-      }
-
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-
-      li a:hover {
-        background-color: #111;
-      }</style>
-    <script src="/validar_contacto.ac84ea65.js"></script>
-  </head>
-    <body>
-      <nav>
-        <ul>
-          <li><a href="/index.html">Inicio</a></li>
-          <li><a href="/sobre-este-sitio.html">Sobre este sitio</a></li>
-          <li><a href="/espacios.html">Espacios protegidos</a></li>
-          <li><a href="/contacto.html">Contacto</a></li>
-          <li><a href="/fuentes.html">Fuentes</a></li>
-        </ul>
-        </nav>
-      <h1>Formulario de Contacto</h1>
-     <form action="enviar" method="post" onsubmit="return validarFormulario()">
-        <p>
-          <label for="nombre">Nombre:</label>
-          <br>
-          <input type="text" id="nombre" name="nombre" required="">
-        </p>
-  
-        <p>
-          <label for="email">Correo electrónico:</label>
-          <br>
-          <input type="email" id="email" name="email" required="">
-        </p>
-  
-        <p>
-          <label for="mensaje">Mensaje:</label>
-          <br>
-          <textarea id="mensaje" name="mensaje" required=""></textarea>
-        </p>
-  
-        <p>
-          <input type="submit" value="Enviar">
-        </p>
-
-      </form>
-
-      
-
-      <head>
-        <style>body {
-          background-image: url('/patos.e6d66650.jpg');
-          background-repeat: no-repeat;
-          background-size: cover;
-          }</style>
-        <script src="/fuentes.js"></script></head>
-        <body>
-        <script>var velocidad = -7; // Velocidad de animación
-var posicion_x = 0; // Posición inicial en el eje x
-
-function animar_fondo() {
-  posicion_x -= velocidad; // Actualiza la posición en el eje x
-  document.body.style.backgroundPosition = posicion_x + "px 0"; // Actualiza la posición de la imagen de fondo
-  requestAnimationFrame(animar_fondo); // Repite la animación
+  min-height: 100vh;
+  background-color: #c0ab81;
+  flex-direction: column;
+  display: flex;
 }
 
-animar_fondo(); // Inicia la animación</script>
-        </body>
+img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
-      <img src="/contactogull.52ba2eda.jpg">
-    </body>
-</html>
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: #f4ff7f;
+  margin-top: auto;
+  padding: 20px;
+}
+
+</style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/logo-turismo3.8f175be1.svg" alt="Logo de la empresa" style="width: 300px">
+        </div>
+        
+        <nav>
+            <ul class="main-menu">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/sobre-este-sitio.html">Sobre este sitio</a></li>
+                <li><a href="/espacios.html">Espacios protegidos</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <head>
+      <meta charset="UTF-8">
+      <title>Animación BounceIn</title>
+    </head>
+    <body>
+      <div style="animation-name: bounceIn; animation-duration: 1s; animation-timing-function: ease-in-out">
+        <!-- Contenido del elemento animado -->
+        <h1>¿Algo que decir? ¡Contacta!</h1>
+      </div>
+
+      <style>@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(.1);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+</style>
+    <script src="/contacto.47ab8cd2.js"></script>
+
+    <form action="enviar" method="post" onsubmit="return validarFormulario()">
+       <p>
+         <label for="nombre">Nombre:</label>
+         <br>
+         <input type="text" id="nombre" name="nombre" required="">
+       </p>
+ 
+       <p>
+         <label for="email">Correo electrónico:</label>
+         <br>
+         <input type="email" id="email" name="email" required="">
+       </p>
+ 
+       <p>
+         <label for="mensaje">Mensaje:</label>
+         <br>
+         <textarea id="mensaje" name="mensaje" required=""></textarea>
+       </p>
+ 
+       <p>
+         <input type="submit" value="Enviar">
+       </p>
+
+     </form>
+ 
+
+    <div class="footer">
+        <img src="/logo-turismo2.c218572b.svg" alt="Logo de la empresa" style="width: 100px">
+        <p>© 2023 Turismo ornitológico de Cantabria - Todos los derechos reservados</p>
+        <p><a href="/fuentes.html">Fuentes</a></p>
+    </div>
+      
+  
+
+<script src="/contacto.7ee82020.js"></script></body>
+</body></html>
+
+

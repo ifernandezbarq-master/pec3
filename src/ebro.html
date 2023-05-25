@@ -1,60 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <body>
-		<nav>
-		  <ul>
-			<li><a href="index.html">Inicio</a></li>
-			<li><a href="sobre-este-sitio.html">Sobre este sitio</a></li>
-			<li><a href="espacios.html">Espacios protegidos</a></li>
-			<li><a href="contacto.html">Contacto</a></li>
-		  </ul>
-		  </nav>
-	  </body>
 <head>
-	<title>Zonas de Especial Protección para las Aves</title>
-	<link rel="stylesheet" href="./css/styles.css">
+	<meta charset="UTF-8">
+	<title>Turismo ornitológico de Cantabria</title>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
 	<style>
-		.category {
-			display: inline-block;
-			margin: 10px;
-			width: 200px;
-			height: 200px;
-			background-color: #ffffff;
-			text-align: center;
-			padding: 20px;
-			box-sizing: border-box;
+		body {
+			background-color: #c0ab81;
+			display: flex;
+			flex-direction: column;
+			min-height: 100vh; /* Establece la altura mínima del cuerpo como el 100% de la altura de la ventana */
 		}
-		.category img {
-			max-width: 100%;
-			height: auto;
+
+		img {
+			margin-top: 30px; /* Margen superior de 30px */
+			margin-bottom: 30px; /* Margen inferior de 30px */
+		}
+
+		.footer {
+			width: 100%;
+			background-color: #f4ff7f;
+			padding: 20px;
+			text-align: center;
+			margin-top: auto; /* Hace que el footer se ajuste automáticamente en la parte inferior */
 		}
 	</style>
 </head>
-  <head>
-    <title>Embalse del Ebro</title>
-    <meta name="description" content="Descripción de la entrada del blog">
-  </head>
-  <body>
-    <header>
-      <h1>Embalse del Ebro</h1>
-      <img src="./assets/07ebro.jpg" alt="Embalse del Ebro">
-    </header>
-    <main>
-      <article>
-        <p>El embalse del Ebro, también llamado pantano del Ebro, pantano de Reinosa o pantano de Arija, es un embalse construido en el curso alto del río Ebro, en el norte de España. Se encuentra entre la comarca cántabra de Campoo-Los Valles y la burgalesa de Las Merindades, aunque la mayor parte del Embalse está en territorio cántabro y de igual forma prácticamente todos los ríos que vierten sus aguas a él proceden de Cantabria. Es uno de los embalses más extensos de España y es el tercer embalse de mayor capacidad de la cuenca hidrográfica del Ebro, por detrás de los embalses de Mequinenza y Canelles.</p>
-        <p>El embalse del Ebro es uno de los humedales más importantes para las aves acuáticas a nivel nacional e internacional. Destacan por un lado las poblaciones de anátidas invernantes y por otro los efectivos reproductores de varias especies que mantienen aquí sus mayores poblaciones nidificantes a nivel de la Comunidad.</p>
-        <ul>
-			<h2>Espacios protegidos</h2>
-			<li><a href="santoña.html">Marismas de Santoña, Victoria, Joyel y Ría de Ajo</a></li>
-			<li><a href="liebana.html">Liébana</a></li>
-			<li><a href="hermida.html">Desfiladero de la Hermida</a></li>
-			<li><a href="sagra.html">Sierra de Peña Sagra</a></li>
-			<li><a href="hijar.html">Sierra de Híjar</a></li>
-			<li><a href="cordel.html">Sierra de Cordel y Cabeceras del Nansa y del Saja</a></li>
-			<li><a href="ebro.html">Embalse del Ebro</a></li>
-			<li><a href="hoces.html">Hoces del Ebro</a></li>
-        </ul>
-      </article>
-    </main>
-  </body>
+
+<body>
+	<header>
+		<div class="logo">
+			<img src="assets/logo-turismo3.svg" alt="Logo de la empresa" style="width: 300px;">
+		</div>
+
+		<nav>
+			<ul class="main-menu">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="sobre-este-sitio.html">Sobre este sitio</a></li>
+				<li><a href="espacios.html">Espacios protegidos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Animación BounceIn</title>
+      </head>
+      <body>
+        <div style="animation-name: bounceIn; animation-duration: 1s; animation-timing-function: ease-in-out;">
+          <!-- Contenido del elemento animado -->
+          <h1>Embalse del Ebro</h1>
+        </div>
+
+        <style>
+          @keyframes bounceIn {
+            0% {
+              transform: scale(0.1);
+              opacity: 0;
+            }
+            60% {
+              transform: scale(1.2);
+              opacity: 1;
+            }
+            100% {
+              transform: scale(1);
+            }
+          }
+        </style>
+
+	<!-- Imagen con tamaños y fuentes responsivas --> 
+	<img
+		src="./assets/petirrojo-pequeña.webp"
+		srcset="./assets/petirrojo-pequeña.webp 480w,
+				./assets/petirrojo-mediana.webp 768w,
+				./assets/petirrojo.webp 1200w"
+		sizes="(max-width: 300px) 100vw,
+			   (max-width: 2099px) 50vw,
+			   25vw"
+		alt="Petirrojo"
+	/>
+	<p>El embalse del Ebro, también llamado pantano del Ebro, pantano de Reinosa o pantano de Arija, es un embalse construido en el curso alto del río Ebro, en el norte de España. Se encuentra entre la comarca cántabra de Campoo-Los Valles y la burgalesa de Las Merindades, aunque la mayor parte del Embalse está en territorio cántabro y de igual forma prácticamente todos los ríos que vierten sus aguas a él proceden de Cantabria. Es uno de los embalses más extensos de España y es el tercer embalse de mayor capacidad de la cuenca hidrográfica del Ebro, por detrás de los embalses de Mequinenza y Canelles.</p>
+    <p>El embalse del Ebro es uno de los humedales más importantes para las aves acuáticas a nivel nacional e internacional. Destacan por un lado las poblaciones de anátidas invernantes y por otro los efectivos reproductores de varias especies que mantienen aquí sus mayores poblaciones nidificantes a nivel de la Comunidad.</p>
+	<p></p>
+
+    <div class="footer">
+        <img src="assets/logo-turismo2.svg" alt="Logo de la empresa" style="width: 100px;">
+        <p>© 2023 Turismo ornitológico de Cantabria - Todos los derechos reservados</p>
+        <p><a href="fuentes.html">Fuentes</a></p>
+    </div>
+      
+</body>
 </html>
