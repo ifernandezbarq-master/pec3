@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Turismo ornitológico de Cantabria</title>
@@ -43,38 +43,34 @@
         </nav>
     </header>
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Animación BounceIn</title>
-      </head>
-      <body>
-        <div style="animation-name: bounceIn; animation-duration: 1s; animation-timing-function: ease-in-out;">
-          <!-- Contenido del elemento animado -->
-          <h1>Zonas de especial protección para las aves</h1>
-        </div>
+    <div style="animation-name: bounceIn; animation-duration: 1s; animation-timing-function: ease-in-out;">
+        <!-- Contenido del elemento animado -->
+        <h1>Zonas de especial protección para las aves</h1>
+    </div>
 
-        <style>
-          @keyframes bounceIn {
+    <style>
+        @keyframes bounceIn {
             0% {
-              transform: scale(0.1);
-              opacity: 0;
+                transform: scale(0.1);
+                opacity: 0;
             }
             60% {
-              transform: scale(1.2);
-              opacity: 1;
+                transform: scale(1.2);
+                opacity: 1;
             }
             100% {
-              transform: scale(1);
+                transform: scale(1);
             }
-          }
-        </style>
+        }
+    </style>
+    
     <!-- Imagen con tamaños y fuentes responsivas --> 
     <picture>
         <source srcset="./assets/canario-pequeña.webp" media="(max-width: 39.99em)"> <!-- Imagen para pantallas pequeñas -->
         <source srcset="./assets/canario.webp" media="(min-width: 30em)"> <!-- Imagen para pantallas grandes -->
         <img src="./assets/canario.webp" alt="Pajarero" sizes="(min-width: 30em) 33vw"> <!-- Imagen de respaldo para navegadores que no admiten el elemento <picture> -->
     </picture>
-    <p></p>
+    
     <p></p>
 
     <a href="ebro.html" class="button">Embalse del Ebro</a>
@@ -105,7 +101,7 @@
 
 <a href="santoña.html">
   <img
-  srcset="./assets/gaviota.webp, ./assets/gaviota-mediana.webp 1.5x, ./assets/gaviota.webp 2x" 
+  srcset="./assets/gaviota-pequeña.webp, ./assets/gaviota-mediana.webp 1.5x, ./assets/gaviota.webp 2x" 
   src="./assets/gaviota.webp"
   alt="Gaviota en Santoña" />
 </a>
