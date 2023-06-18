@@ -271,3 +271,13 @@ p {
   stroke-width: 8;
   fill: none;
 }
+
+
+@keyframes entrada-portada {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.contenedor-svg img {
+  animation: entrada-portada 1s forwards;
+}
