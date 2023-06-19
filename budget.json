@@ -1,0 +1,32 @@
+{
+    "resourceSizes": [
+      {
+        "resourceType": "total",
+        "budget": "250 KB",
+        "threshold": "80%"
+      },
+      {
+        "resourceType": "script",
+        "budget": "100 KB",
+        "threshold": "70%"
+      },
+      {
+        "resourceType": "image",
+        "budget": "150 KB",
+        "threshold": "90%"
+      }
+    ],
+    "resourceCounts": [
+      {
+        "resourceType": "total",
+        "budget": 30,
+        "threshold": "90%"
+      },
+      {
+        "resourceType": "third-party",
+        "budget": 5,
+        "threshold": "70%"
+      }
+    ]
+  }
+  
