@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turismo ornitológico de Cantabria</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <style>
@@ -30,7 +31,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="assets/logo-turismo3.svg" alt="Logo de la empresa" style="width: 300px;" loading="lazy">
+            <img src="assets/logo-turismo3.svg" alt="Logo de la empresa" style="width: 300px;" width="100" height="100">
         </div>
         
         <nav>
@@ -46,38 +47,27 @@
     <div style="animation-name: bounceIn; animation-duration: 1s; animation-timing-function: ease-in-out;">
         <!-- Contenido del elemento animado -->
         <h1>¿Ganas de ver aves?</h1>
+        <div class="contenedor-svg">
+            <img src="assets/mapa.svg" alt="Imagen de portada" width="1024" height="768" loading="lazy">
+        </div>
     </div>
 
-    <style>
-        @keyframes bounceIn {
-            0% {
-                transform: scale(0.1);
-                opacity: 0;
-            }
-            60% {
-                transform: scale(1.2);
-                opacity: 1;
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
-    </style>
+<p class="parrafo">¡Hola!</p>
+<p class="parrafo">Si estás aquí seguramente eres pajarero o pajarera y estás planificando tu viaje de turismo ornitológico. Quizá no sabes de qué va el tema, y estás a punto de descubrir el emocionante mundo de la observación de aves.</p>
+<p class="parrafo">El «birdwatching», la afición de observar las aves en su medio natural, levanta cada vez más pasiones en todo el mundo. Cantabria, es una de las zonas con más biodiversidad de Europa, y ofrece iniciativas de todo tipo para ello. En este sitio explicamos cómo y dónde ver aves en Cantabria.</p>
+<p class="parrafo">La avifauna de Cantabria presenta una amplia diversidad gracias a la variedad de nichos ecológicos existentes en la región y a la posición geográfica de la misma, equidistante entre el mundo mediterráneo del sur peninsular.</p>
 
-    <div class="contenedor-svg">
-        <img src="assets/mapa.svg" alt="Imagen de portada" loading="lazy">
-    </div>
+<link rel="stylesheet" href="./css/styles.css">
 
-    <p>¡Hola!</p>
-    <p>Si estás aquí seguramente eres pajarero o pajarera y estás planificando tu viaje de turismo ornitológico. Quizá no sabes de qué va el tema, y estás a punto de descubrir el emocionante mundo de la observación de aves.</p>
-    <p>El «birdwatching», la afición de observar las aves en su medio natural, levanta cada vez más pasiones en todo el mundo. Cantabria, es una de las zonas con más biodiversidad de Europa, y ofrece iniciativas de todo tipo para ello. En este sitio explicamos cómo y dónde ver aves en Cantabria.</p>
-    <p>La avifauna de Cantabria presenta una amplia diversidad gracias a la variedad de nichos ecológicos existentes en la región y a la posición geográfica de la misma, equidistante entre el mundo mediterráneo del sur peninsular.</p>
+<div class="footer">
+    <img src="assets/logo-turismo2.svg" alt="Logo de la empresa" width="100" height="100">
+    <p>© 2023 Turismo ornitológico de Cantabria - Todos los derechos reservados</p>
+    <p><a href="fuentes.html">Fuentes</a></p>
+</div>
 
-    <div class="footer">
-        <img src="assets/logo-turismo2.svg" alt="Logo de la empresa" style="width: 100px;" loading="lazy">
-        <p>© 2023 Turismo ornitológico de Cantabria - Todos los derechos reservados</p>
-        <p><a href="fuentes.html">Fuentes</a></p>
-    </div>
+    <script src="./js/index.js" async></script>
+    <script src="./js/scripts.js" async></script>
+    <script src="./js/validar_contacto.js" async></script>
       
 </body>
 </html>
