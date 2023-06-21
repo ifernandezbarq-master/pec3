@@ -1,3 +1,48 @@
+body {
+  background-color: #c0ab81;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Establece la altura mínima del cuerpo como el 100% de la altura de la ventana */
+}
+
+img {
+  margin-top: 30px; /* Margen superior de 30px */
+  margin-bottom: 30px; /* Margen inferior de 30px */
+}
+
+.logo img {
+  width: 300px; /* Establece un ancho fijo de 300px para el logo del header */
+}
+
+.footer {
+  width: 100%;
+  background-color: #f4ff7f;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto; /* Hace que el footer se ajuste automáticamente en la parte inferior */
+}
+
+.animated-content {
+  animation-name: bounceIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bounceIn {
+  0% {
+      transform: scale(0.1);
+      opacity: 0;
+  }
+  60% {
+      transform: scale(1.2);
+      opacity: 1;
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+
 /* Estilos del header y el main menu */
 header {
   padding: 20px;
