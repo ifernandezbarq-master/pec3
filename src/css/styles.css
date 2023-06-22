@@ -12,9 +12,8 @@ img {
 
 .parrafo {
   width: 100%;
-  height: 100px;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-bottom: 2em; 
+  margin-top: 0;
 }
 
 .main-menu {
@@ -32,14 +31,14 @@ img {
 
 .main-menu li a {
   text-decoration: none;
-  color: #f4ff7f;
+  color: #000000;
   padding: 5px 10px;
   border-radius: 5px;
 }
 
 .main-menu li a:hover {
   background-color: #c0ab81;
-  color: #000000;
+  color: #f4ff7f;
 }
 
 .logo img {
@@ -113,7 +112,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #000000;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   margin-left: 80px;
   margin-right: 80px;
 }
@@ -136,7 +135,6 @@ h1 {
 h2 {
   font-size: 24px;
 }
-
 
 .img-hover {
   transition: transform 0.3s ease-in-out;
@@ -161,6 +159,8 @@ h2 {
 @media only screen and (min-width: 768px) {
   body {
     background-size: cover;
+    margin-bottom: 30px;
+
   }
 
   img {
@@ -172,6 +172,8 @@ h2 {
   p {
     margin-right: 50%;
     text-align: justify;
+    margin-bottom: 80px;
+
   }
 
   form {
@@ -187,6 +189,7 @@ h2 {
 
   p {
     text-align: left;
+    margin-bottom: 80px;
   }
 
   form {

@@ -2,35 +2,15 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Turismo ornitológico de Cantabria</title>
 	<link rel="stylesheet" type="text/css" href="./css/styles.css">
-	<style>
-		body {
-			background-color: #c0ab81;
-			display: flex;
-			flex-direction: column;
-			min-height: 100vh; /* Establece la altura mínima del cuerpo como el 100% de la altura de la ventana */
-		}
-
-		img {
-			margin-top: 30px; /* Margen superior de 30px */
-			margin-bottom: 30px; /* Margen inferior de 30px */
-		}
-
-		.footer {
-			width: 100%;
-			background-color: #f4ff7f;
-			padding: 20px;
-			text-align: center;
-			margin-top: auto; /* Hace que el footer se ajuste automáticamente en la parte inferior */
-		}
-	</style>
 </head>
 
 <body>
 	<header>
 		<div class="logo">
-			<img src="assets/logo-turismo3.svg" alt="Logo de la empresa" style="width: 300px;" loading="lazy">
+			<img src="assets/logo-turismo3.svg" alt="Logo de la empresa" style="width: 300px;" width="100" height="100" loading="lazy">
 		</div>
 
 		<nav>
@@ -45,27 +25,9 @@
 
     <section>
         <div style="animation-name: bounceIn; animation-duration: 1s; animation-timing-function: ease-in-out;">
-            <!-- Contenido del elemento animado -->
             <h1>Peña Sagra</h1>
         </div>
 
-        <style>
-            @keyframes bounceIn {
-                0% {
-                    transform: scale(0.1);
-                    opacity: 0;
-                }
-                60% {
-                    transform: scale(1.2);
-                    opacity: 1;
-                }
-                100% {
-                    transform: scale(1);
-                }
-            }
-        </style>
-
-        <!-- Imagen con tamaños y fuentes responsivas -->
         <img
             src="./assets/rapaz-pequeña.webp"
             srcset="./assets/rapaz-pequeña.webp 480w,
@@ -75,19 +37,25 @@
                 (max-width: 2099px) 50vw,
                 25vw"
             alt="Rapaz"
+            style="max-width: 100%;"
             loading="lazy">
-        />
-        <article>
-            <p>La sierra de Peña Sagra, o simplemente Peña Sagra, es un cordal de unos 16 kilómetros de longitud que separa la cabecera suroccidental del valle del Nansa del Valle de Liébana, por donde discurre el río Deva, y Polaciones. En terrenos de Cabezón de Liébana, junto a otros de Peñarrubia, Lamasón, Polaciones, Rionansa y Tudanca, están las 5.020 Hectáreas que abarca esta Z.E.P.A.</p>
-            <p>La Sierra de Peña Sagra es frecuentada por diversas rapaces, como el águila real y el buitre leonado. El buitre es un animal popularmente conocido. Senderistas y habitantes de los pueblos ven su inconfundible silueta surcando los cielos de Cantabria. El buitre común o leonado, que es el que se suele avistar en nuestra región, es inconfundible por sus 2,5 metros de envergadura y un peso de 6 a 11 kilos, por lo general.</p>
-        </article>
     </section>
 
-    <footer class="footer">
-        <img src="assets/logo-turismo2.svg" alt="Logo de la empresa" style="width: 100px;" loading="lazy">
+        <article>
+            <p class="parrafo">La sierra de Peña Sagra, o simplemente Peña Sagra, es un cordal de unos 16 kilómetros de longitud que separa la cabecera suroccidental del valle del Nansa del Valle de Liébana, por donde discurre el río Deva, y Polaciones. En terrenos de Cabezón de Liébana, junto a otros de Peñarrubia, Lamasón, Polaciones, Rionansa y Tudanca, están las 5.020 Hectáreas que abarca esta Z.E.P.A.</p>
+            <p class="parrafo">La Sierra de Peña Sagra es frecuentada por diversas rapaces, como el águila real y el buitre leonado. El buitre es un animal popularmente conocido. Senderistas y habitantes de los pueblos ven su inconfundible silueta surcando los cielos de Cantabria. El buitre común o leonado, que es el que se suele avistar en nuestra región, es inconfundible por sus 2,5 metros de envergadura y un peso de 6 a 11 kilos, por lo general.</p>
+        </article>
+
+
+    <div class="footer">
+        <img src="assets/logo-turismo2.svg" alt="Logo de la empresa" width="100" height="100" loading="lazy">
         <p>© 2023 Turismo ornitológico de Cantabria - Todos los derechos reservados</p>
         <p><a href="fuentes.html">Fuentes</a></p>
-    </footer>
+    </div>
+
+    <script src="./js/index.js" async></script>
+    <script src="./js/scripts.js" async></script>
+    <script src="./js/validar_contacto.js" async></script>
       
 </body>
 </html>
