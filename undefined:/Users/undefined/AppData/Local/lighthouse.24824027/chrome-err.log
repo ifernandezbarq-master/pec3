@@ -1,0 +1,21 @@
+[0624/131532.388:ERROR:file_io_win.cc(201)] LockFileEx: Función incorrecta. (0x1)
+[0624/131532.392:ERROR:file_io_win.cc(201)] LockFileEx: Función incorrecta. (0x1)
+[0624/131532.394:ERROR:file_io_win.cc(201)] LockFileEx: Función incorrecta. (0x1)
+[0624/131532.399:ERROR:file_io_win.cc(201)] LockFileEx: Función incorrecta. (0x1)
+[2160:42912:0624/131532.722:ERROR:network_sandbox.cc(295)] Failed to grant sandbox access to cache directory \\wsl.localhost\Ubuntu\home\iriafzbq\pec3.2023\pec2\undefinedï€º\Users\undefined\AppData\Local\lighthouse.24824027\Default\Cache\Cache_Data: Función incorrecta. (0x1)
+[2160:42912:0624/131532.731:ERROR:network_sandbox.cc(383)] Failed to grant sandbox access to network context data directory \\wsl.localhost\Ubuntu\home\iriafzbq\pec3.2023\pec2\undefinedï€º\Users\undefined\AppData\Local\lighthouse.24824027\Default\Network: Función incorrecta. (0x1)
+
+DevTools listening on ws://127.0.0.1:39073/devtools/browser/4da2d666-66e8-4876-90e1-be54360090d4
+[2160:11672:0624/131532.882:ERROR:network_service_instance_impl.cc(279)] Encountered error while migrating network context data or granting sandbox access for \\wsl.localhost\Ubuntu\home\iriafzbq\pec3.2023\pec2\undefinedï€º\Users\undefined\AppData\Local\lighthouse.24824027\Default\Network. Result: 6: La operación se completó correctamente. (0x0)
+[2160:4312:0624/131533.809:ERROR:model_type_store_service_impl.cc(38)] Failed to initialize ModelTypeStore backend: Init@components\sync\model\model_type_store_backend.cc:109: IO error: \\wsl.localhost\Ubuntu\home\iriafzbq\pec3.2023\pec2\undefinedï€º\Users\undefined\AppData\Local\lighthouse.24824027\Default\Sync Data\LevelDB/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
+[2160:28444:0624/131535.204:ERROR:login_database.cc(843)] Unable to create the meta table.
+[2160:28444:0624/131535.207:ERROR:login_database_async_helper.cc(54)] Could not create/open login database.
+[2160:30108:0624/131535.326:ERROR:login_database.cc(843)] Unable to create the meta table.
+[2160:30108:0624/131535.327:ERROR:login_database_async_helper.cc(54)] Could not create/open login database.
+[2160:11672:0624/131535.366:ERROR:device_event_log_impl.cc(222)] [13:15:35.366] USB: usb_service_win.cc:415 Could not read device interface GUIDs: El sistema no puede encontrar el archivo especificado. (0x2)
+[2160:40048:0624/131537.261:ERROR:top_sites_backend.cc(79)] Failed to initialize database.
+[0624/132530.948:ERROR:file_io_win.cc(201)] LockFileEx: Función incorrecta. (0x1)
+[0624/132530.951:ERROR:file_io_win.cc(201)] LockFileEx: Función incorrecta. (0x1)
+[0624/132530.952:ERROR:file_io_win.cc(201)] LockFileEx: Función incorrecta. (0x1)
+[0624/132531.032:ERROR:crash_report_database_win.cc(343)] LockFileEx: Función incorrecta. (0x1)
+[0624/132531.032:ERROR:filesystem_win.cc(149)] DeleteFile \\wsl.localhost\Ubuntu\home\iriafzbq\pec3.2023\pec2\undefinedï€º\Users\undefined\AppData\Local\lighthouse.24824027\Crashpad\reports\4492f91d-1884-46d5-8424-c41004432029.dmp: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso. (0x20)
