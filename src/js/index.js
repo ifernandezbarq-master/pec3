@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", function() {
+
+
 // Función para compartir en Facebook
 function compartirFacebook() {
   var url = encodeURIComponent(window.location.href);
@@ -31,3 +34,5 @@ document.getElementById('linkedinBtn').addEventListener('click', compartirLinked
 
 
 console.log('¡Hola, aves!');
+
+});

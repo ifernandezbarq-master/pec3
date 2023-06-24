@@ -1,4 +1,6 @@
-function validarFormulario() {
+document.addEventListener("DOMContentLoaded", function() {
+
+  function validarFormulario() {
     var nombre = document.getElementById("nombre").value;
     var email = document.getElementById("email").value;
     var mensaje = document.getElementById("mensaje").value;
@@ -21,3 +23,4 @@ function validarFormulario() {
     
     return true;
   }
+});

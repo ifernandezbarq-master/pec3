@@ -1,4 +1,6 @@
-// Función para compartir en Facebook
+document.addEventListener("DOMContentLoaded", function() {
+
+  // Función para compartir en Facebook
 function compartirFacebook() {
     var url = encodeURIComponent(window.location.href);
     window.open('https://www.facebook.com/sharer/sharer.php?u=' + url, '_blank');
@@ -23,4 +25,4 @@ function compartirFacebook() {
   document.getElementById('facebookBtn').addEventListener('click', compartirFacebook);
   document.getElementById('twitterBtn').addEventListener('click', compartirTwitter);
   document.getElementById('linkedinBtn').addEventListener('click', compartirLinkedIn);
-  
+});
