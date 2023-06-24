@@ -1,18 +1,32 @@
+
 {
-  "path": "./dist", // Ruta de la carpeta de distribución donde se encuentran los recursos
-  "timings": {
-    "total": 5000, // Límite de tiempo total de carga en milisegundos (por ejemplo, 5 segundos)
-    "script": 2000, // Límite de tiempo para la carga de scripts en milisegundos (por ejemplo, 2 segundos)
-    "style": 1000 // Límite de tiempo para la carga de estilos en milisegundos (por ejemplo, 1 segundo)
-  },
-  "bytes": {
-    "total": 500000, // Límite de tamaño total de transferencia en bytes (por ejemplo, 500 KB)
-    "image": 200000, // Límite de tamaño para imágenes en bytes (por ejemplo, 200 KB)
-    "font": 100000 // Límite de tamaño para fuentes en bytes (por ejemplo, 100 KB)
-  },
-  "requests": {
-    "total": 30, // Límite de número total de solicitudes (por ejemplo, 30 solicitudes)
-    "xhr": 5, // Límite de número de solicitudes XHR (por ejemplo, 5 solicitudes)
-    "image": 10 // Límite de número de solicitudes de imágenes (por ejemplo, 10 solicitudes)
-  }
+  "resourceSizes": [
+    {
+      "resourceType": "total",
+      "budget": "250 KB",
+      "threshold": "80%"
+    },
+    {
+      "resourceType": "script",
+      "budget": "100 KB",
+      "threshold": "70%"
+    },
+    {
+      "resourceType": "image",
+      "budget": "150 KB",
+      "threshold": "90%"
+    }
+  ],
+  "resourceCounts": [
+    {
+      "resourceType": "total",
+      "budget": 30,
+      "threshold": "90%"
+    },
+    {
+      "resourceType": "third-party",
+      "budget": 5,
+      "threshold": "70%"
+    }
+  ]
 }
