@@ -14,9 +14,9 @@ img {
 }
 
 .parrafo {
-  width: 100vw;
-  margin-bottom: 2em; 
+  margin-bottom: 2em;
   margin-top: 2em;
+  width: 100%; /* Cambiado de 100vw a 100% para adaptarse al ancho del contenedor padre */
 }
 
 .main-menu {
